@@ -1,5 +1,3 @@
-/*jslint browser */
-
 window.addEventListener("DOMContentLoaded", function () {
     const btnClose = document.getElementById("closeModalBtn");
     const btnOpen = document.getElementById("openModalBtn");
