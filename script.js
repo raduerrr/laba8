@@ -107,7 +107,7 @@ window.addEventListener("DOMContentLoaded", function () {
         }).catch(function () {
             showStatus(
                 false,
-                "Ошибка при отправке. Проверьте подключение или URL сервера."
+                "Ошибка при отправке. Проверьте подключение к интернету."
             );
         }).finally(function () {
             btnSubmit.disabled = false;
